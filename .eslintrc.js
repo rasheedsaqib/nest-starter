@@ -58,7 +58,8 @@ module.exports = {
     'unicorn/prefer-top-level-await': 'off',
     'sonarjs/cognitive-complexity': 'off',
     'unicorn/prefer-string-replace-all': 'off',
-    '@typescript-eslint/return-await': 'off'
+    '@typescript-eslint/return-await': 'off',
+    'unicorn/no-await-expression-member': 'off'
   },
   overrides: [
     {
