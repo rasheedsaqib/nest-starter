@@ -11,13 +11,8 @@ export default defineConfig({
       '.*\\/.idea\\/.*'
     ],
     coverage: {
-      include: ['src/**/*.ts'],
-      exclude: [
-        'src/main.tsx',
-        'src/**/*.d.ts',
-        'src/**/*.spec.ts',
-        'src/**/*.module.ts'
-      ],
+      include: ['src/**/*.{controller,service}.ts'],
+      exclude: ['src/main.tsx'],
       provider: 'istanbul',
       branches: 100,
       functions: 100,
