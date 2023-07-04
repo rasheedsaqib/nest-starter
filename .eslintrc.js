@@ -18,7 +18,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     sourceType: 'module'
   },
-  plugins: ['@typescript-eslint', 'sonarjs', 'simple-import-sort'],
+  plugins: ['@typescript-eslint', 'sonarjs', 'simple-import-sort', 'vitest'],
   rules: {
     '@typescript-eslint/ban-types': 'error',
     'consistent-return': 'error',
