@@ -13,13 +13,14 @@
     "^.+\\.(t|j)s$": "ts-jest"
   },
   "collectCoverageFrom": [
-    "<rootDir>/**/*.ts",
-    "!<rootDir>/main.ts",
-    "!<rootDir>/modules/**/*.module.ts"
+    "<rootDir>/modules/**/*.ts",
+    "!<rootDir>/modules/**/*.module.ts",
+    "!<rootDir>/main.ts"
   ],
   "coverageDirectory": "../build/coverage",
   "testEnvironment": "node",
   "moduleNameMapper": {
     "^@/(.*)$": "<rootDir>/$1"
-  }
+  },
+  "setupFilesAfterEnv": ["./tests/jest.setup.ts"]
 }
