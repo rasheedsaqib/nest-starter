@@ -27,6 +27,10 @@ jobs:
     name: ⚙️ CommitLint
     runs-on: ubuntu-latest
 
+    if: github.actor != 'dependabot[bot]'
+    env:
+      GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+
     steps:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v3
@@ -34,8 +38,6 @@ jobs:
           fetch-depth: 0
 
       - name: ⚙️ commitlint
-        with:
-          token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         uses: wagoid/commitlint-github-action@v4
 
   unit-test:
