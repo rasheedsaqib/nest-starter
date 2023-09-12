@@ -8,9 +8,8 @@ import {
 } from '@/filters'
 
 export const createTestingApp = async (metadata: ModuleMetadata) => {
-  const module: TestingModule = await Test.createTestingModule(
-    metadata
-  ).compile()
+  const module: TestingModule =
+    await Test.createTestingModule(metadata).compile()
 
   const app = module.createNestApplication()
 
