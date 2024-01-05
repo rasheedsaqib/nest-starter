@@ -4933,10 +4933,10 @@ mongodb-connection-string-url@^2.6.0:
     "@types/whatwg-url" "^8.2.1"
     whatwg-url "^11.0.0"
 
-mongodb-memory-server-core@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-9.0.1.tgz#2ae38cbd768d725322343004da925541148d4108"
-  integrity sha512-+dGsBoviujeAiDiU4O0zUXQ33pLsjQhDuWA8HucLfwgm0d+xdfOhSe5Xz/6uQjE1MNutpwExBvFyVKXaVuNkYg==
+mongodb-memory-server-core@9.1.4:
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server-core/-/mongodb-memory-server-core-9.1.4.tgz#d55c1d0cabdc2e610bc725f464121294279359c0"
+  integrity sha512-DfMpNcv/4T1hQCKWBqhUt1FkHwt6DlIqqIjYFgg3FAOismsId6Zg+RuucOQbGAPUPaU0bLSgn6cVRWAqV40OVA==
   dependencies:
     async-mutex "^0.4.0"
     camelcase "^6.3.0"
@@ -4944,19 +4944,19 @@ mongodb-memory-server-core@9.0.1:
     find-cache-dir "^3.3.2"
     follow-redirects "^1.15.3"
     https-proxy-agent "^7.0.2"
-    mongodb "^5.9.0"
+    mongodb "^5.9.1"
     new-find-package-json "^2.0.0"
     semver "^7.5.4"
     tar-stream "^3.0.0"
     tslib "^2.6.2"
     yauzl "^2.10.0"
 
-mongodb-memory-server@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-9.0.1.tgz#1c9f94a2ed76ba7d0a39bfea23bb22346ad41847"
-  integrity sha512-Qqph8PoJHtHjvP8JynWMx9K9N4Eh0GDj+bexL/vB6jtvzw1nUcARnxidPvaKFzU+hDULz9sgTUqYJmjqowmXTQ==
+mongodb-memory-server@^9.1.4:
+  version "9.1.4"
+  resolved "https://registry.yarnpkg.com/mongodb-memory-server/-/mongodb-memory-server-9.1.4.tgz#aa837afa7b2243042d7150b2a12163f0813b3337"
+  integrity sha512-S5s/aVeGmDcX+M63Tir5o+RrB7Z1sazaO8EC7m3vQVkNRCP5soaQpXMTJWh5ac1dEPzq65x8QG2pY5ibpn/bIA==
   dependencies:
-    mongodb-memory-server-core "9.0.1"
+    mongodb-memory-server-core "9.1.4"
     tslib "^2.6.2"
 
 mongodb@6.2.0:
@@ -4968,10 +4968,10 @@ mongodb@6.2.0:
     bson "^6.2.0"
     mongodb-connection-string-url "^2.6.0"
 
-mongodb@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-5.9.0.tgz#5a22065fa8cfaf1d58bf2e3c451cd2c4bfa983a2"
-  integrity sha512-g+GCMHN1CoRUA+wb1Agv0TI4YTSiWr42B5ulkiAfLLHitGK1R+PkSAf3Lr5rPZwi/3F04LiaZEW0Kxro9Fi2TA==
+mongodb@^5.9.1:
+  version "5.9.2"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-5.9.2.tgz#39a73b9fbc87ac9d9c1aaf8aab5c5bb69e2b913e"
+  integrity sha512-H60HecKO4Bc+7dhOv4sJlgvenK4fQNqqUIlXxZYQNbfEWSALGAwGoyJd/0Qwk4TttFXUOHJ2ZJQe/52ScaUwtQ==
   dependencies:
     bson "^5.5.0"
     mongodb-connection-string-url "^2.6.0"
